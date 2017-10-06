@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>9.0.21022</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{7DA5033B-9394-CB87-3659-888052E20D3B}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace>Irrelevant</RootNamespace>
+	<AssemblyName>Irrelvant</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_3_3_0;UNITY_3_3;UNITY_EDITOR;ENABLE_PROFILER;UNITY_WEBPLAYER;ENABLE_GENERICS;ENABLE_DUCK_TYPING;ENABLE_TERRAIN;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CLOTH;ENABLE_WWW</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+	<Reference Include="Boo.Lang">
+	  <HintPath>C:/Program Files/Unity/Editor/Data/Mono/lib/mono/unity/Boo.Lang.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityScript">
+	  <HintPath>C:/Program Files/Unity/Editor/Data/Mono/lib/mono/unity/UnityScript.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Editor\AnBSoft\Editors\SpriteTimelineEditor.cs" />
+     <Compile Include="Assets\Editor\AnBSoft\Wizards\About_SM2.cs" />
+     <Compile Include="Assets\Editor\AnBSoft\Wizards\BuildAtlases.cs" />
+     <Compile Include="Assets\Editor\AnBSoft\Wizards\SpriteSizer.cs" />
+     <Compile Include="Assets\Pixelplacement\iTweenPath\Editor\iTweenPathEditor.cs" />
+     <Compile Include="Assets\Pixelplacement\iTweenPath\iTweenPath.cs" />
+     <None Include="Assets\Plugins\AnBSoft Common\Standard Shaders\Sprite Cutout.shader" />
+     <None Include="Assets\Plugins\AnBSoft Common\Standard Shaders\Transparent Vertex Colored.shader" />
+     <Compile Include="Assets\Plugins\Sprite Scripts\Support\AutoSpriteBase.cs" />
+     <Compile Include="Assets\Plugins\Sprite Scripts\Support\ISpriteAggregator.cs" />
+     <Compile Include="Assets\Plugins\Sprite Scripts\Support\ISpriteMesh.cs" />
+     <Compile Include="Assets\Plugins\Sprite Scripts\Support\SpriteAnimationPump.cs" />
+     <Compile Include="Assets\Plugins\Sprite Scripts\Support\SpriteBase.cs" />
+     <Compile Include="Assets\Plugins\Sprite Scripts\Support\SpriteMesh.cs" />
+     <Compile Include="Assets\Plugins\Sprite Scripts\Support\SpriteMesh_Managed.cs" />
+     <Compile Include="Assets\Plugins\Sprite Scripts\Support\SpriteRoot.cs" />
+     <Compile Include="Assets\Plugins\Sprite Scripts\PackedSprite.cs" />
+     <Compile Include="Assets\Plugins\Sprite Scripts\Sprite.cs" />
+     <Compile Include="Assets\Plugins\Sprite Scripts\SpriteManager.cs" />
+     <Compile Include="Assets\Plugins\Sprite Scripts\SuperSprite.cs" />
+     <Compile Include="Assets\Plugins\iTween.cs" />
+     <None Include="Assets\script\Balloon\BalloonIns.js" />
+     <None Include="Assets\script\Balloon\BalloonMgr.js" />
+     <None Include="Assets\script\Bullet\Banana.js" />
+     <None Include="Assets\script\Bullet\BulletInfo.js" />
+     <None Include="Assets\script\Bullet\BulletMgr.js" />
+     <None Include="Assets\script\Bullet\Cherry.js" />
+     <None Include="Assets\script\Bullet\CherryExplode.js" />
+     <None Include="Assets\script\Bullet\CherryMgr.js" />
+     <None Include="Assets\script\Bullet\PropMgr.js" />
+     <None Include="Assets\script\Bullet\Watermelon.js" />
+     <None Include="Assets\script\Control\DataMain.js" />
+     <None Include="Assets\script\Control\DeathArea.js" />
+     <None Include="Assets\script\Control\DestroyObject.js" />
+     <None Include="Assets\script\Control\GameMgr.js" />
+     <None Include="Assets\script\Control\Help.js" />
+     <None Include="Assets\script\Control\HelpStart.js" />
+     <None Include="Assets\script\Control\IgnoreCollision.js" />
+     <None Include="Assets\script\Control\LevelsData.js" />
+     <None Include="Assets\script\Control\move.js" />
+     <None Include="Assets\script\Control\PauseMgr.js" />
+     <None Include="Assets\script\Control\Rotate.js" />
+     <None Include="Assets\script\Control\SceneMgr.js" />
+     <None Include="Assets\script\Event\EventSystem.js" />
+     <None Include="Assets\script\Event\NotificationCenter.js" />
+     <None Include="Assets\script\Fox\Fox.js" />
+     <None Include="Assets\script\Fox\FoxEscape.js" />
+     <None Include="Assets\script\Fox\FoxInfo.js" />
+     <None Include="Assets\script\Fox\FoxMgr.js" />
+     <None Include="Assets\script\Fox\FoxMove.js" />
+     <None Include="Assets\script\Fox\FoxQuantity.js" />
+     <None Include="Assets\script\Fox\FoxWeaponMgr.js" />
+     <None Include="Assets\script\Fruit\Fruit.js" />
+     <None Include="Assets\script\Fruit\FruitInfo.js" />
+     <None Include="Assets\script\GUI\ComBox.js" />
+     <None Include="Assets\script\GUI\EnterNextLevel.js" />
+     <None Include="Assets\script\GUI\FoxBarMgr.js" />
+     <None Include="Assets\script\GUI\GameContinue.js" />
+     <None Include="Assets\script\GUI\GUIMgr.js" />
+     <None Include="Assets\script\GUI\LevelBtn.js" />
+     <None Include="Assets\script\GUI\MainMgr.js" />
+     <None Include="Assets\script\GUI\ReplayCurLevel.js" />
+     <None Include="Assets\script\GUI\ReturnLevelList.js" />
+     <None Include="Assets\script\GUI\ReturnMenu.js" />
+     <None Include="Assets\script\GUI\RopeMgr.js" />
+     <None Include="Assets\script\GUI\Score.js" />
+     <None Include="Assets\script\GUI\ScoreDisplay.js" />
+     <None Include="Assets\script\GUI\ScorePlanMgr.js" />
+     <None Include="Assets\script\GUI\Sorce1.js" />
+     <None Include="Assets\script\GUI\Steal.js" />
+     <None Include="Assets\script\GUI\TotalScoreMgr.js" />
+     <None Include="Assets\script\GUI\Up.js" />
+     <None Include="Assets\script\GUI\WatermelonCountMgr.js" />
+     <None Include="Assets\script\GUI\Wheel.js" />
+     <None Include="Assets\script\Hedgehog\HedgehogMove.js" />
+     <None Include="Assets\script\Hedgehog\HedgehogStop.js" />
+     <None Include="Assets\script\Mushroom\Mushroom.js" />
+     <None Include="Assets\script\Mushroom\MushroomMove.js" />
+     <None Include="Assets\script\Scalc.js" />
+     <None Include="Assets\script\SimpleDictionary.js" />
+     <None Include="Assets\Standard Assets\Particles\Legacy Particles\TimedObjectDestructor.js" />
+     <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
+	
